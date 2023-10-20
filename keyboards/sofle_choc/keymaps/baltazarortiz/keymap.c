@@ -83,7 +83,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * | Esc  | Ins  | Pscr | Menu |      |      |                    |      | PWrd |      | NWrd | DLine| Bspc |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * | Tab  | LAt  | LCtl |LShift| BSPC | Caps |-------.    ,-------| Left | Up   | Down | Right| Bspc | Del  |
- * |------+------+------+------+------+------|  MUTE |    |       |------+------+------+------+------+------|
+ * |------+------+------+------+------+------|  ADJ  |    |       |------+------+------+------+------+------|
  * |Shift | Undo |  Cut | Copy | Paste| BSPC |-------|    |-------|      | BSPC |      | LEnd |      | Shift|
  * `-----------------------------------------/       /     \      \-----------------------------------------'
  *            | LGUI | LAlt | LCTR |ENTER | /RAISE  /       \LOWER \  |ENTER | RCTR | RAlt | RGUI |
@@ -94,7 +94,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______, _______ , _______ , _______ , _______ , _______,                           _______,  _______  , _______,  _______ ,  _______ ,_______, \
   _______,  KC_INS,  KC_PSCR,   KC_APP,  XXXXXXX, XXXXXXX,                        KC_PGUP, KC_PRVWD, XXXXXXX, KC_NXTWD,KC_DLINE, KC_BSPC, \
   _______, KC_LALT,  KC_LCTL,  KC_LSFT,  KC_BSPC, KC_CAPS,                       KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_BSPC, KC_DEL, \
-  _______,KC_UNDO, KC_CUT, KC_COPY, KC_PASTE, KC_BSPC,  _______,       _______,  XXXXXXX, KC_BSPC, XXXXXXX, KC_LEND, XXXXXXX, _______, \
+  _______,KC_UNDO, KC_CUT, KC_COPY, KC_PASTE, KC_BSPC,  MO(_ADJUST),       _______,  XXXXXXX, KC_BSPC, XXXXXXX, KC_LEND, XXXXXXX, _______, \
                          _______, _______, _______, KC_ENT, _______,       MO(_ADJUST), KC_ENT, _______, _______, _______ \
 ),
 /* ADJUST
